@@ -1,0 +1,40 @@
+<html>
+<meta charset="utf-8">
+<head>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+<script src="js/jquery.progressbar.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='css/nprogress.css' rel='stylesheet' />
+<script src='js/nprogress.js'></script>
+<script src="js/index.js"></script>
+<link href="css/flick/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="css/site.css" /> -->
+</head>
+<body>
+<script type="text/javascript">
+    global.window = window;
+</script>
+<div id="content">
+<input style="display:none;" id="openFile" type="file" accept=".xls,.xlsx,application/excel" />
+<input style="display:none;" id="saveFile" type="file" accept=".xls,.xlsx,application/excel" nwsaveas />
+<div class="buttons">
+    <button id="open" title="Нажмите чтобы загрузить исходный файл"><img src="icons/open.png"/>Открыть файл</button>
+    <button id="convert" title="Нажмите чтобы ковертировать"><img src="icons/convert.png"/>Конвертировать файл</button>
+    <button id="save" title="Нажмите чтобы сохранить результат"><img src="icons/save.png"/>Сохранить файл</button>
+</div>
+<div>
+<!--     <input id="_in" style="width: 147px;" />
+    <input id="_out" style="width: 147px;" />
+    <button id="add_setting">
+        <img src="icons/add.png" title="Нажмите чтобы добавить настройку."/>
+    </button> -->
+    <div id="table_settings_content" >
+    </div>
+    <textarea id="text_log" cols="30" rows="7"></textarea>
+</div>
+<!-- <button id="close-window-button">Close Window</button> -->
+<div id="ajaxBusy"><p><img src="icons/loading.gif"></p></div>
+</div>
+</body>
+</html>

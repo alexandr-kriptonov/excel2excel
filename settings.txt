@@ -1,0 +1,30 @@
+[
+    {
+        "in": "Отчество",
+        "out": "NAM3"
+    },
+    {
+        "in": "#NOTHING#",
+        "out": "NAM4"
+    },
+    {
+        "in": "asdasda",
+        "out": "NAM5"
+    },
+    {
+        "in": "sdfsdf",
+        "out": "NAM6"
+    },
+    {
+        "in": "Уникальный номер призывника",
+        "out": "NAM1"
+    },
+    {
+        "in": "adgfs",
+        "out": "WWW1"
+    },
+    {
+        "in": "#\"OLOLO\"#",
+        "out": "ASD"
+    }
+]

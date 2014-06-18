@@ -1,0 +1,16 @@
+{
+  "name": "XLS converter",
+  "main": "index.html",
+  "node-main": "js/index.js",
+  "window": {
+    "icon": "icons/xls.png",
+    // "show": false,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 640,
+    "height": 480,
+    "min_width": 300 ,
+    "min_height": 300
+  }
+}

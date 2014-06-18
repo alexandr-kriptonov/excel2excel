@@ -1,0 +1,94 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+div#content {
+  background-color: #dddddd;
+  margin: 0px;
+  padding: 0px;
+}
+
+div#inner-content {
+  background-color: #dddddd;
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#text_log {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  resize: none;
+}
+
+#open {
+  float: left;
+}
+/*
+#convert {
+  display: block;
+  margin: 0 auto;
+}*/
+
+#save {
+  float: right;
+}
+/*
+#table-wrapper {
+  position:absolute;
+}*/
+
+#table-scroll {
+  height:150px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+
+table * {
+  background:white;
+  color:black;
+/*  border:1px solid blue;*/
+}
+
+td {
+  border:1px solid green;
+}
+
+.td_input {
+  border:1px solid blue;
+}
+
+.button_tooltip:hover::after {
+  content: attr(data-title); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 10%; top: 10%; /* Положение подсказки */
+  z-index: 1; /* Отображаем подсказку поверх других элементов */
+  background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+  font-family: Arial, sans-serif; /* Гарнитура шрифта */
+  font-size: 11px; /* Размер текста подсказки */
+  padding: 5px 10px; /* Поля */
+  border: 1px solid #333; /* Параметры рамки */
+}
+
+input{
+   text-align:center;
+   /*outline:none;*/
+   border: none;
+}
+
+#ajaxBusy {
+  z-index: 1;
+}
